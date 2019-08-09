@@ -1,3 +1,6 @@
+In order to start off the project in a systematic manner some part of the dev-ops features were used in the implementation of the project. I initially started off with planning on exploring the different technologies that I’d be working on as I was unaware of them. After a lot of research on how to go about I finally made a plan on the requirements as well as on how I’d be implementing them.
+ According to the specifications mentioned about the technologies which are supposed to be used the project was purely implemented using Eclipse as an IDE platform with maven as a project file and Java in order to write the code. As there was no need to use any graphical user interface the code was written in java using command line arguments while the user is given the choice to enter his details and continue with selecting the type of waste he’d like to donate, brand etc.
+
 Cleaniness is the cause of destruction of many things and approaching that problem technologically is making me feel better about 
 the profession that I am going to be a part of.
 As a part of the solution, I have followed the instructions given in the README file. Initially, a user is asked whether 
@@ -7,7 +10,7 @@ SON objects by adding a couple of maven dependencies instead of downloading the 
 were a little hard to comprehend. It's because of that - that I went ahead and implemented the DOM Parsers concept. In case the user is
 old, I retrieved his credentials from the XML file and compared it with the input that the user gave. Post the verification/ registration, 
 the user is asked about the catgory of waste that he'd like to report. Based on the category and the quantity entered by the user, the 
-points will be generated and a random coupon code will be assigned to it and notified to the user. Inspired by the DevOps way of 
+points will be generated and a random coupon code ( Using different string variables like numbers, alphabets, and special characters and concatenating them. They can be called by using the using the math.random() which generates random codes) that are displayed to the user along with the number of points that he’d earned.will be assigned to it and notified to the user. Inspired by the DevOps way of 
 operating, I wrote little snippets of code and kept testing them (and deploying it on GitHub). 
 
 I would like to propose to you an alternative solution that I would have approached if the requirements weren't specified.
