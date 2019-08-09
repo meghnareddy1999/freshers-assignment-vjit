@@ -4,7 +4,9 @@ public class Process {
 public static void main (String args[]) throws IOException 
 {
 	BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-	System.out.println("Select the type of garbage that you would like to let us know about");
+	while(true)
+	{
+		System.out.println("Select the type of garbage that you would like to let us know about");
 	System.out.println("Press 1 for GLASS");
 	System.out.println("Press 2 for PLASTIC");
 	System.out.println("Press 3 for METAL");
@@ -153,8 +155,8 @@ public static void main (String args[]) throws IOException
 		CouponCode cd=new CouponCode();
 	int len=4;
 	String st= cd.makeCode(len);
-
+	
 	System.out.println("You have received "+points+" points as a reward. Use the coupon code " +st+" to redeem your points! Congratulations!");
-
+}
 }
 }
