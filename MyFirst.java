@@ -57,7 +57,9 @@ public class MyFirst{
             //write data
             transformer.transform(source, console);
             transformer.transform(source, file);
-            System.out.println("DONE");
+            Process p = new Process();
+            p.main(args);
+
 
         } catch (Exception e) {
             e.printStackTrace();
