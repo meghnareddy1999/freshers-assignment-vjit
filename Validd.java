@@ -41,9 +41,16 @@ public class Validd {
            String name1=eElement.getElementsByTagName("username").item(0).getTextContent();
            String pass1=eElement.getElementsByTagName("password").item(0).getTextContent();	
            // System.out.println("ll");
-          
+          if(ename.equals(name1))
+    	{
+       		//System.out.println("ll");
+      		if(epass.equals(pass1))
+    		{
+    			// redirect the user to the next place
       	         Process p = new Process();
          p.main(args);
+		}
+	  }
     	
 		} //close verification for loop
 	 
