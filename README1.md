@@ -18,8 +18,13 @@ old, I retrieved his credentials from the XML file and compared it with the inpu
 1. The 4.7 version of the Eclipse IDE was installed. While creating the project, the category was chosen as Maven (in order to deal with the dependencies with ease.)
 2. Classes like Document, DocumentBuilder, DocumentBuilderFactory - belonging to the javax.xml package were used in order to read from and write to an XML file. 
 
+## Assumptions made :
+1. The value of the coupon was based on random values assigned to each type of waste. I assumed that the reward for a less mainstream waste is more and vice versa.
+2. The details that are required to register the user was assumed to be just the username and password.
+3. The file hello.xml is available in the D drive in the executioner's pc.
+4. The group that the Maven project belongs to is - com.codebind and the artifact's name is : SecondArtifact
 
-### I would like to propose to a couple of additional ideas that could add a couple of extra advantages.
+### I would like to propose to a couple of additional ideas that could add some extra advantages.
 1. Making use of a could provider like AWS or Azure in order to store the details of the user. Considering the fact that the amount of 
 data that could be generated is unpredictable and depends on the success of the app, the scalability and pay as you go feature will help
 in making sure that we invest just the right amount in deploying the app. We could host our website using an EC2 instance and attach it 
