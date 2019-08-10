@@ -1,3 +1,5 @@
+package com.codebind;
+
 public class CouponCode
 {
 public static void main(String[] args)
