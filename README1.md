@@ -3,7 +3,7 @@
 
 ## Introduction
 A garbage notifier application is one which helps a person to let the government / the responsible muncipality about the waste that is lying in a particular area that the person came across. 
-Just like how any other software project is developed, either by using the traditional SDLC methodology or using latest methodologies like the DevOps, I went about with this project as well. s far as the planning is concerned, I made a flow that the application would follow. Accordingly, I identified the requirements - such as the IDE in which it was going to be developed and the type of files that I would use in order to store the data and access it. Post which, I divided the project into small parts and worked on the code. I tested the little snippets of code using multiple inputs. After combining the little snippets with one another, I produced the .jar file that I recently uploaded.
+Just like how any other software project is developed, either by using the traditional SDLC methodology or using latest methodologies like the DevOps, I went about with this project as well as far as the planning is concerned, I made a flow that the application would follow. Accordingly, I identified the requirements - such as the IDE in which it was going to be developed and the type of files that I would use in order to store the data and access it. Post which, I divided the project into small parts and worked on the code. I tested the little snippets of code using multiple inputs. After combining the little snippets with one another, I produced the .jar file that I recently uploaded.
 
 ## The Flow 
 Cleaniness is the cause of destruction of many things and approaching that problem technologically is making me feel better about 
