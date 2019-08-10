@@ -1,5 +1,5 @@
 # Garbage Notifier Application - 
-## A technological solution to various contaminations!
+#### A technological solution to various contaminations!
 
 ## Introduction
 A garbage notifier application is one which helps a person to let the government / the responsible muncipality about the waste that is lying in a particular area that the person came across. 
