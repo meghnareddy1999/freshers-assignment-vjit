@@ -55,7 +55,7 @@ public class MyFirst{
             StreamResult file = new StreamResult(new File("D://hello.xml"));
 
             //write data
-            transformer.transform(source, console);
+           //  transformer.transform(source, console);
             transformer.transform(source, file);
             Process p = new Process();
             p.main(args);
