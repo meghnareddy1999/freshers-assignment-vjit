@@ -44,11 +44,11 @@ public class MyFirst{
         
 
             //for output to file, console
-            //TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            //Transformer transformer = transformerFactory.newTransformer();
+            TransformerFactory transformerFactory = TransformerFactory.newInstance();
+            Transformer transformer = transformerFactory.newTransformer();
             //for pretty print
-            //transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-            //DOMSource source = new DOMSource(doc);
+            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+            DOMSource source = new DOMSource(doc);
 
             //write to console or file
             StreamResult console = new StreamResult(System.out);
